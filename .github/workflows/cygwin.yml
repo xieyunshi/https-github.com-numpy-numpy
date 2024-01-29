@@ -33,7 +33,7 @@ jobs:
             python39-devel python39-pip python-pip-wheel python-setuptools-wheel
             liblapack-devel liblapack0 gcc-fortran gcc-g++ git dash cmake ninja
       - name: Set Windows PATH
-        uses: egor-tensin/cleanup-path@8469525c8ee3eddabbd3487658621a6235b3c581 # v3
+        uses: egor-tensin/cleanup-path@f04bc953e6823bf491cc0bdcff959c630db1b458 # v4.0.1
         with:
           dirs: 'C:\tools\cygwin\bin;C:\tools\cygwin\lib\lapack'
       - name: Verify that bash is Cygwin bash
